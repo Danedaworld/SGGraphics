@@ -1,0 +1,67 @@
+﻿Build started 12/12/2014 2:20:33 PM.
+     1>Project "D:\Programming\DAVID_LIAO_HW3b\SceneGraph\SceneGraph.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files\Visual Studio\VC\bin\CL.exe /c /I. /I..\include /I..\freeglut\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src/main.cpp
+         main.cpp
+     1>d:\programming\david_liao_hw3b\scenegraph\src\SceneGraph.h(81): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\programming\david_liao_hw3b\scenegraph\src\KDTree.h(12): warning C4099: 'KDTree' : type name first seen using 'struct' now seen using 'class'
+                 d:\programming\david_liao_hw3b\scenegraph\src\KDTree.h(10) : see declaration of 'KDTree'
+     1>d:\programming\david_liao_hw3b\scenegraph\src\KDTree.h(31): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\programming\david_liao_hw3b\scenegraph\src\KDTree.h(58): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\programming\david_liao_hw3b\scenegraph\src\KDTree.h(60): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\programming\david_liao_hw3b\scenegraph\src\KDTree.h(62): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>d:\programming\david_liao_hw3b\scenegraph\src\KDTree.h(73): warning C4172: returning address of local variable or temporary
+     1>d:\programming\david_liao_hw3b\scenegraph\src\KDTree.h(82): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\programming\david_liao_hw3b\scenegraph\src\KDTree.h(94): warning C4018: '>' : signed/unsigned mismatch
+     1>src/main.cpp(110): warning C4244: 'initializing' : conversion from 'std::chrono::system_clock::rep' to 'unsigned int', possible loss of data
+     1>src/main.cpp(126): warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>src/main.cpp(127): warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>src/main.cpp(256): warning C4018: '<' : signed/unsigned mismatch
+     1>src/main.cpp(281): warning C4018: '<' : signed/unsigned mismatch
+     1>src/main.cpp(314): warning C4018: '<' : signed/unsigned mismatch
+     1>src/main.cpp(333): warning C4018: '<' : signed/unsigned mismatch
+     1>src/main.cpp(405): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>src/main.cpp(421): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>src/main.cpp(422): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>src/main.cpp(423): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>src/main.cpp(426): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>src/main.cpp(427): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>src/main.cpp(468): warning C4244: '=' : conversion from 'float' to 'ebmpBYTE', possible loss of data
+     1>src/main.cpp(469): warning C4244: '=' : conversion from 'float' to 'ebmpBYTE', possible loss of data
+     1>src/main.cpp(470): warning C4244: '=' : conversion from 'float' to 'ebmpBYTE', possible loss of data
+     1>src/main.cpp(524): warning C4244: '=' : conversion from 'float' to 'ebmpBYTE', possible loss of data
+     1>src/main.cpp(525): warning C4244: '=' : conversion from 'float' to 'ebmpBYTE', possible loss of data
+     1>src/main.cpp(526): warning C4244: '=' : conversion from 'float' to 'ebmpBYTE', possible loss of data
+     1>src/main.cpp(531): warning C4244: '=' : conversion from 'float' to 'ebmpBYTE', possible loss of data
+     1>src/main.cpp(532): warning C4244: '=' : conversion from 'float' to 'ebmpBYTE', possible loss of data
+     1>src/main.cpp(533): warning C4244: '=' : conversion from 'float' to 'ebmpBYTE', possible loss of data
+     1>src/main.cpp(631): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src/main.cpp(660): warning C4018: '<' : signed/unsigned mismatch
+     1>src/main.cpp(670): warning C4018: '<' : signed/unsigned mismatch
+     1>src/main.cpp(679): warning C4018: '<' : signed/unsigned mismatch
+     1>src/main.cpp(822): warning C4018: '<' : signed/unsigned mismatch
+     1>src/main.cpp(841): warning C4018: '<' : signed/unsigned mismatch
+     1>src/main.cpp(867): warning C4018: '<' : signed/unsigned mismatch
+     1>src/main.cpp(892): warning C4018: '<' : signed/unsigned mismatch
+     1>src/main.cpp(976): warning C4244: 'argument' : conversion from 'float' to 'GLsizei', possible loss of data
+       Link:
+         D:\Program Files\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Programming\DAVID_LIAO_HW3b\Release\SceneGraph.exe" /NOLOGO /LIBPATH:. ../freeglut/lib/freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\Programming\DAVID_LIAO_HW3b\Release\SceneGraph.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Programming\DAVID_LIAO_HW3b\Release\SceneGraph.lib" /MACHINE:X86 /SAFESEH Release\EasyBMP.obj
+         Release\Cylinder.obj
+         Release\Geometry.obj
+         Release\main.obj
+         Release\Sphere.obj
+         Release\glew.obj
+         Release\Camera.obj
+         Release\Config.obj
+         Release\Cube.obj
+         Release\Mesh.obj
+         Release\SceneGraph.obj
+         Release\tests.obj
+         Generating code
+         Finished generating code
+         SceneGraph.vcxproj -> D:\Programming\DAVID_LIAO_HW3b\Release\SceneGraph.exe
+     1>Done Building Project "D:\Programming\DAVID_LIAO_HW3b\SceneGraph\SceneGraph.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.57
