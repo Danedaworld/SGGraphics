@@ -1,5 +1,6 @@
-Name: David Liao
-Homework 3c
+
+![snowman](https://raw.githubusercontent.com/Danedaworld/SGGraphics/master/Other%20Images/reflective%20snowman.bmp)
+![reflective walls](https://raw.githubusercontent.com/Danedaworld/SGGraphics/master/Portfolio/Indirect_Reflective_Wall%201000%20Samples.bmp)
 
 5.1 - OpenMP support enabled. I use each thread to process a line of pixels.
 
